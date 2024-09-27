@@ -1,127 +1,12 @@
-<!DOCTYPE html>
-<html lang="zxx">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+include "inc/header.php";
 
-    <link rel="icon" href="images/favicon.png">
-    <title>Masud - Personal Portfolio Template</title>
+include "inc/about.php";
 
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
-    <!-- end font -->
+?>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/fakeLoader.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/style.css">
 
-</head>
-
-<body>
-
-    <!-- loader -->
-    <div class="fakeLoader"></div>
-    <!-- loader -->
-
-    <!-- header -->
-    <header id="home">
-
-        <!-- navbar -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-
-                <!-- navbar brand or logo -->
-                <a href="#" class="navbar-brand">
-                    <h2>Masud</h2>
-                </a>
-                <!-- end navbar brand or logo -->
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="navbarTogglerDemo" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#resume" class="nav-link">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#blog" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- end navbar -->
-
-        <!-- home intro -->
-        <div class="home-intro segments">
-            <div class="container">
-                <div class="intro-content box-content">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 col-sm-12 col-xs-12">
-                            <div class="intro-caption">
-                                <span>I am Bleak Peaker</span>
-                                <h2>Graphic Designer</h2>
-                                <button class="button">Contact Me</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="intro-image">
-                                <img src="images/intro-image.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end home intro -->
-
-    </header>
-    <!-- end header -->
-
-    <!-- about -->
-    <div id="about" class="about segments">
-        <div class="container">
-            <div class="box-content">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-left">
-                            <div class="section-title section-title-left">
-                                <h3>About Me</h3>
-                            </div>
-                            <div class="content">
-                                <h2>I am a Graphic Designer</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloremque ratione perferendis possimus voluptatibus distinctio
-                                autem expedita qui unde modi impedit officia illum praesentium amet, vero quos natus veritatis totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="content-right"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end about -->
 
     <!-- resume -->
     <div id="resume" class="resume segments">
@@ -568,27 +453,6 @@
     </div>
     <!-- end contact -->
 
-    <!-- footer -->
-    <div class="footer segments">
-        <div class="container">
-            <div class="box-content">
-                <p>Copyright © All Right Reserved</p>
-            </div>
-        </div>
-    </div>
-    <!-- end footer -->
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/fakeLoader.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.filterizr.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/main.js"></script>
-
-
-</body>
-
-</html>
+   <?php
+        include "inc/footer.php";
+   ?>
